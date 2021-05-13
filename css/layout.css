@@ -1,0 +1,77 @@
+body{
+    background-color: #fafafa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.instagram-wraper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.instagram-phone{
+    margin-right: 1.4rem;
+}
+.group{
+    background-color: white;
+    width: 18rem;
+    margin-bottom: 0.5rem;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid gainsboro;
+}
+.group-2{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.face-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.2rem;
+}
+.option{
+    display: flex;
+    align-items: center;
+    color: gainsboro;
+    padding: 0.4rem;
+}
+.option>.linha{
+    border: 0.1rem solid gainsboro;
+    width: 5rem;
+}
+a{
+    text-decoration: none;
+}
+form{
+    width: 80%;
+}
+.item{
+    padding: 0.3rem;
+}
+.item> input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: .2rem;
+    border: solid 1px gainsboro;
+}
+.item> input::placeholder{
+    font-size: xx-small;
+}
+.item>button{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: rgb(10, 111, 219);
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: .2rem;
+}
